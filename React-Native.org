@@ -1,0 +1,26 @@
+* How to build a smoothly animated ToDo app with React Native, Expo, Reanimated, NativeBase, and Moti
+
+{{video https://www.youtube.com/watch?v=k2h7usLLBhY}}
+** Chapters
+*** DONE {{youtube-timestamp 0}} Digest
+*** DONE {{youtube-timestamp 85}} Create a new Expo project
+*** DONE {{youtube-timestamp 365}} Prepare to use NativeBase
+*** DONE {{youtube-timestamp 522}} Add dark theme support
+*** DONE {{youtube-timestamp 813}} Go to Kyoto!
+*** DONE {{youtube-timestamp 889}} Create SVG checkmark
+*** DONE {{youtube-timestamp 1101}} Animate the checkbox
+*** DONE {{youtube-timestamp 1320}} Fix a babel error
+*** DONE {{youtube-timestamp 1382}} Make the checkbox able to toggle
+*** DONE {{youtube-timestamp 1519}} Animate the checkbox
+*** DONE {{youtube-timestamp 1678}} Create task item component
+*** DONE {{youtube-timestamp 2035}} Animate task label
+*** DONE {{youtube-timestamp 2865}} Integrate react-navigation and drawer
+*** TODO {{youtube-timestamp 3085}} Implement swipe-to-remove interaction
+*** TODO {{youtube-timestamp 4029}} Make task items editable
+*** TODO {{youtube-timestamp 4345}} Create task list component
+*** TODO {{youtube-timestamp 5502}} Animate background color
+*** TODO {{youtube-timestamp 5780}} Add masthead
+*** TODO {{youtube-timestamp 6186}} Fix scrollview
+*** TODO {{youtube-timestamp 6329}} Implement sidebar content
+*** TODO {{youtube-timestamp 6976}} Add about screen
+*** TODO {{youtube-timestamp 7520}} Testing on Android

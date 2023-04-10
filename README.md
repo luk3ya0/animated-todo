@@ -1,3 +1,5 @@
+An exercise on react native about smooth animated todo app, follow [Takuya](https://github.com/craftzdog)
+
 ### Digest
 
 Ingredients:
@@ -64,8 +66,6 @@ mkdir -p src/{components, assets, screens}
 touch src/components/app-container.tsx
 ```
 ### Add dark theme support
-
-### Go to Kyoto
 
 ### Create SVG checkmark
 
