@@ -39,8 +39,36 @@ const SwipeView = (props: Props) => {
     },
     onEnd: () => {
       const shouldBeDismissed = translateX.value < SWIPE_THRESHOLD
+      if (shouldBeDismissed) {
+        translateX.value = withTiming(-SCREEN_WIDTH)
+        onSwipeLeft && runOnJS(onSwipeLeft)()
+      } else {
+        translateX.value = withTiming(0)
+      }
     }
   })
+  
+  const facadeStyle = useAnimatedStyle(() => ({
+    transform: [{
+      translateX: translateX.value
+    }]
+  }))
+  
+  return (
+    <StyledView w="full">
+      {backView && (
+        <Box position="absolute" left={0} right={0} top={0} bottom={0}>
+          {backView}
+        </Box>
+      )}
+      <PanGestureHandler
+        simultaneousHandlers={simultaneousHandlers}
+        onGestureEvent={pandGesture}
+      >
+        <StyledView style={facadeStyle}>{children}</StyledView>
+      </PanGestureHandler>
+    </StyledView>
+  )
 }
 
 export default SwipeView
