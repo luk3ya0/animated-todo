@@ -8,6 +8,10 @@ An exercise on react native about smooth animated todo app, follow [Takuya](http
 
 - Maybe build up connection between apple calendar and org mode.
 
+## Todo
+
+see [logseq video schedule](React-Native.org)
+
 ### Digest
 
 Ingredients:
@@ -66,20 +70,3 @@ yarn add moti react-native-reanimated
 
 yarn add react-native-safe-area-context shortid @types/shortid expo-linking
 ```
-### Prepare to use NativeBase
-
-```shell
-mkdir -p src/{components, assets, screens}
-
-touch src/components/app-container.tsx
-```
-### Add dark theme support
-
-### Create SVG checkmark
-
-### Animate the checkbox
-
-### Fix a babel error
-
-### Make the checkbox able to toggle
-
