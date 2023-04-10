@@ -17,9 +17,9 @@
 *** DONE {{youtube-timestamp 3085}} Implement swipe-to-remove interaction
 *** DONE {{youtube-timestamp 4029}} Make task items editable
 *** DONE {{youtube-timestamp 4345}} Create task list component
-*** TODO {{youtube-timestamp 5502}} Animate background color
-*** TODO {{youtube-timestamp 5780}} Add masthead
-*** TODO {{youtube-timestamp 6186}} Fix scrollview
-*** TODO {{youtube-timestamp 6329}} Implement sidebar content
+*** DONE {{youtube-timestamp 5502}} Animate background color
+*** DONE {{youtube-timestamp 5780}} Add masthead
+*** DONE {{youtube-timestamp 6186}} Fix scrollview
+*** DONE {{youtube-timestamp 6329}} Implement sidebar content
 *** TODO {{youtube-timestamp 6976}} Add about screen
-*** TODO {{youtube-timestamp 7520}} Testing on Android
+*** DONE {{youtube-timestamp 7520}} Testing on Android
