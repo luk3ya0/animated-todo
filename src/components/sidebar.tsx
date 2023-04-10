@@ -78,6 +78,9 @@ const Sidebar = (props: DrawerContentComponentProps) => {
           About
         </MenuButton>
       </VStack>
+      <Center>
+        <ThemeToggle />
+      </Center>
     </AnimatedColorBox>
   )
 }

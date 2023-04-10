@@ -74,7 +74,14 @@ export default function MainScreen() {
       >
         <Navbar/>
       </Masthead>
-      <VStack space={5} alignItems="center" w="full">
+      <VStack
+        flex={1}
+        space={1}
+        mt="-20px"
+        borderTopLeftRadius="20px"
+        borderTopRightRadius="20px"
+        pt="20px"
+      >
         <TaskList
           data={data}
           onToggleItem={handleToggleItem}
@@ -84,7 +91,6 @@ export default function MainScreen() {
           onRemoveItem={handleRemoveItem}
           editingItemId={editingItemId}
         />
-        <ThemeToggle/>
       </VStack>
       <Fab
         position="absolute"

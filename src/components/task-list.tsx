@@ -118,7 +118,7 @@ export default function TaskList(props: TaskListProps) {
     onRemoveItem
   } = props
   
-  const refScrollView = useRef()
+  const refScrollView = useRef(null)
   
   return (
     <StyledScrollView
