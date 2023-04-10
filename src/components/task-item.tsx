@@ -7,7 +7,6 @@ import {
 import {
   Box,
   HStack,
-  Text,
   useTheme,
   themeTools,
   useColorModeValue,
