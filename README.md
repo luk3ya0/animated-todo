@@ -6,6 +6,8 @@ An exercise on react native about smooth animated todo app, follow [Takuya](http
 
 - Maybe build up connection between org mode and my own todo app.
 
+- Maybe build up connection between apple calendar and org mode.
+
 ### Digest
 
 Ingredients:
