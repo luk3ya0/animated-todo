@@ -1,5 +1,11 @@
 An exercise on react native about smooth animated todo app, follow [Takuya](https://github.com/craftzdog)
 
+## Why
+
+- Learning and experience the React Native.
+
+- Maybe build up connection between org mode and my own todo app.
+
 ### Digest
 
 Ingredients:
@@ -74,5 +80,4 @@ touch src/components/app-container.tsx
 ### Fix a babel error
 
 ### Make the checkbox able to toggle
-
 
