@@ -1,9 +1,12 @@
 import React, {useCallback, useState} from 'react';
-import {Icon, Center, VStack, Fab, useColorModeValue} from 'native-base';
+import {Icon, VStack, Fab, useColorModeValue} from 'native-base';
 import ThemeToggle from '../components/theme-toggle';
 import shortid from 'shortid';
 import TaskList, {TaskItemData} from "../components/task-list";
 import {AntDesign} from '@expo/vector-icons';
+import AnimatedColorBox from "../components/animated-color-box";
+import Masthead from "../components/masthead";
+import Navbar from "../components/navbar";
 
 const initialData = [
   {
@@ -60,11 +63,17 @@ export default function MainScreen() {
   }, [])
   
   return (
-    <Center
-      _dark={{bg: 'blueGray.900'}}
-      _light={{bg: 'blueGray.50'}}
-      px={4}
-      flex={1}>
+    <AnimatedColorBox
+      flex={1}
+      bg={useColorModeValue('warmGray.50', 'primary.900')}
+      w="full"
+    >
+      <Masthead
+        title="What's up, Luke"
+        image={require('../assets/masthead.png')}
+      >
+        <Navbar/>
+      </Masthead>
       <VStack space={5} alignItems="center" w="full">
         <TaskList
           data={data}
@@ -81,7 +90,7 @@ export default function MainScreen() {
         position="absolute"
         renderInPortal={false}
         size="sm"
-        icon={<Icon color="white" as={<AntDesign name="plus" />}/>}
+        icon={<Icon color="white" as={<AntDesign name="plus"/>}/>}
         colorScheme={useColorModeValue('blue', 'darkBlue')}
         bg={useColorModeValue('blue.500', 'blue.3400')}
         onPress={() => {
@@ -97,6 +106,6 @@ export default function MainScreen() {
           setEditingItemId(id)
         }}
       />
-    </Center>
+    </AnimatedColorBox>
   );
 }
